@@ -1,5 +1,5 @@
 import React from "react";
-import "./Game.css";
+import "./stylesheet/Game.css";
 import Board from "./Board";
 import AStarAlgorithm from "./AStarAlgorithm";
 

@@ -291,22 +291,6 @@ export default class AStarAlgorithm {
           path.push(nextPosition);
           path.push(nextPosition);
         }
-
-        // let random = Math.random();
-        // let nextPosition = null;
-        // if (random < 0.25) {
-        //   // up
-        //   nextPosition = { x: currentSnakeHead.x, y: currentSnakeHead.y - 1 };
-        // } else if (random < 0.5) {
-        //   // down
-        //   nextPosition = { x: currentSnakeHead.x, y: currentSnakeHead.y + 1 };
-        // } else if (random < 0.75) {
-        //   // left
-        //   nextPosition = { x: currentSnakeHead.x - 1, y: currentSnakeHead.y };
-        // } else if (random < 1) {
-        //   // right
-        //   nextPosition = { x: currentSnakeHead.x + 1, y: currentSnakeHead.y };
-        // }
       }
 
       if (path) {
