@@ -1,0 +1,9 @@
+.border {
+  position: relative;
+  height: 800px;
+  width: 800px;
+  margin: 10px auto;
+  -moz-box-shadow: 0 0 3px black;
+  -webkit-box-shadow: 0 0 3px black;
+  box-shadow: 0 0 3px black;
+}

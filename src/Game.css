@@ -1,0 +1,17 @@
+.game-container {
+  width: 100%;
+  position: absolute;
+  align-content: center;
+}
+
+.title {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.temp-snake {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
