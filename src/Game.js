@@ -14,7 +14,7 @@ export default class Game extends React.Component {
     this.height = 40;
     this.prevDirection = null;
 
-    const initialLength = 150;
+    const initialLength = 1;
     const initialPosition = [
       [Math.floor(Math.random() * 40), Math.floor(Math.random() * 40)],
     ]; // first entry is head
